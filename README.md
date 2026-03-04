@@ -1,8 +1,7 @@
 # Retention, Habit Formation & Growth Dynamics in a Freemium Model
 
 ## Business Case: Dognition User Engagement Analysis  
-**Author:** Ashma Poudel  
-**Target Role:** Business Analyst / Product Analyst  
+**Author:** Ashma Poudel   
 **Tools Used:** Tableau, Excel, GitHub  
 
 ---
