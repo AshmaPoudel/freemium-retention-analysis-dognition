@@ -2,17 +2,17 @@
 
 ## Author: Ashma Poudel  
 ## Target Role: Business Analyst / Product Analyst  
-## Tools Used: Tableau, Excel  
+## Tools Used: Tableau, SQL, Excel  
 
 ---
 
 ## 1. Executive Summary
 
-This project analyzes user engagement behavior within Dognition’s Freemium model to identify opportunities for improving test completion rates and stabilizing long-term growth.
+This project analyzes user engagement behavior within Dognition’s freemium model to identify opportunities for improving test completion rates and stabilizing long-term growth.
 
-While Free Start drives strong acquisition, behavioral data reveals significant early-stage drop-offs and inconsistent engagement patterns.
+While the Free Start model drives strong acquisition, behavioral data reveals significant early-stage drop-offs and inconsistent engagement patterns.
 
-This proposal recommends operational and behavioral process improvements designed to increase user retention and average tests completed per user.
+This proposal recommends operational and behavioral improvements to increase user retention and average tests completed per user.
 
 ---
 
@@ -24,10 +24,10 @@ Key challenges identified:
 
 - Sharp retention drop between Tests 7–10  
 - Long engagement gaps leading to user churn  
-- Revenue growth heavily dependent on promotional spikes  
+- Revenue heavily dependent on promotional spikes  
 - Low habit formation consistency  
 
-The core issue is behavioral retention, not acquisition volume.
+👉 The core issue is **behavioral retention**, not acquisition volume.
 
 ---
 
@@ -35,13 +35,15 @@ The core issue is behavioral retention, not acquisition volume.
 
 - Dataset: 177,000+ test records  
 - Key fields analyzed:
-  - User ID
-  - Test completion sequence
-  - Enrollment type (Free vs Paid)
-  - Test timestamps
+  - User ID  
+  - Test completion sequence  
+  - Enrollment type (Free vs Paid)  
+  - Test timestamps  
   - Monthly growth trends  
 
 Data was analyzed using Tableau to identify engagement patterns, drop-off points, and time-based behavior trends.
+
+In addition, SQL was used to perform segmentation analysis to evaluate the impact of user characteristics on engagement behavior.
 
 ---
 
@@ -60,45 +62,37 @@ Behavioral trends were visualized to detect friction points in the user journey.
 
 ## 5. Key Insights
 
-### Insight 1: Retention Cliff
+### Insight 1: Retention Cliff  
+Free users experience a sharp drop-off between Tests 7–10, indicating friction before conversion.
 
-Free users experience a sharp drop-off between Tests 7–10, indicating friction before conversion stage.
+### Insight 2: Engagement Consistency Predicts Completion  
+Shorter testing gaps strongly correlate with higher completion rates.  
+Consistent engagement significantly improves progression.
 
-### Insight 2: Engagement Consistency Predicts Completion
+### Insight 3: Peak Usage Occurs Between 6–8 PM  
+Evening engagement exceeds morning usage, suggesting post-work behavioral patterns.
 
-Shorter testing gaps strongly correlate with higher completion rates.
-
-Users with consistent daily engagement show significantly higher progression rates.
-
-### Insight 3: Peak Usage Occurs Between 6–8 PM
-
-Evening engagement significantly exceeds morning usage, suggesting Dognition functions as a post-work cognitive activity.
-
-### Insight 4: Growth is Promotion-Driven
-
-Major growth spikes align with Free Start promotional periods, indicating unstable organic retention.
+### Insight 4: Growth is Promotion-Driven  
+Growth spikes align with Free Start campaigns, indicating unstable organic retention.
 
 ---
 
 ## 6. Recommendations
 
 ### 1. Extend Free Momentum
-
 - Increase free test access to 10–12 tests  
 - Introduce pre-paywall streak rewards  
 - Trigger upgrade prompts during peak hours  
 
-### 2. Implement Habit Reinforcement Mechanisms
-
-- 24-hour reminder notifications  
-- “Continue Progress” prompts  
-- Consistency-based badge system  
+### 2. Strengthen Habit Formation
+- Implement 24-hour reminder notifications  
+- Add “Continue Progress” prompts  
+- Introduce consistency-based badge systems  
 
 ### 3. Stabilize Revenue Growth
-
-- Reduce heavy reliance on promotional bursts  
+- Reduce reliance on promotional spikes  
 - Introduce mid-tier subscription model  
-- Optimize referral prompts during peak engagement hours  
+- Optimize referral prompts during peak engagement  
 
 ---
 
@@ -110,21 +104,35 @@ Major growth spikes align with Free Start promotional periods, indicating unstab
 
 **Phase 2 (1–3 Months):**
 - Launch streak reward system  
-- Introduce time-based upgrade offers  
+- Introduce time-based upgrade prompts  
 
 **Phase 3 (3–6 Months):**
 - Evaluate conversion uplift  
-- Adjust pricing tiers  
+- Optimize pricing strategy  
 
 ---
 
 ## 8. KPI Tracking Framework
 
 - Average tests completed per user  
-- Test 7–10 retention rate  
+- Retention rate between Tests 7–10  
 - Average engagement gap (hours)  
 - Conversion rate (Free → Paid)  
 - Monthly recurring revenue stability  
+
+---
+
+## 9. Supporting Analysis (SQL)
+
+SQL-based analysis was conducted to evaluate whether engagement differences are influenced by user attributes such as personality dimensions and breed types.
+
+### Key Findings:
+- Engagement is consistent across personality groups  
+- Breed type shows minimal variation in test completion  
+- No strong correlation between user traits and engagement behavior  
+
+### Insight:
+User engagement is driven more by product experience and behavioral design than by inherent user characteristics.
 
 ---
 
